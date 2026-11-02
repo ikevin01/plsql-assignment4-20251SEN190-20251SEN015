@@ -1,0 +1,10 @@
+---
+
+## 2. `.gitignore`
+
+```gitignore
+*.log
+*.tmp
+.DS_Store
+.vscode/
+.idea/
