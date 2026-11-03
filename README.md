@@ -37,7 +37,29 @@ An AI assistant was utilized to assist with structuring code templates, generati
 
 ---
 
-## How to Run
+
+
+## 📁 Repository Structure
+
+```text
+plsql-assignment4-20251SEN190-20251SEN015/
+├── README.md
+├── .gitignore
+├── 00_schema/
+│   ├── 01_create_tables.sql       # Schema creation, keys, and constraints
+│   └── 02_insert_sample_data.sql  # Initial dataset populating tables
+├── 01_procedures/
+│   ├── process_bulk_orders.sql    # Bulk processing & nested table collection
+│   └── update_product_pricing.sql # Implicit cursors & parameter validation
+├── 02_functions/
+│   ├── calculate_customer_discount.sql # Associative arrays & %ROWTYPE records
+│   └── get_total_customer_spend.sql    # Explicit cursor FOR loops
+├── 03_tests/
+│   ├── test_success_cases.sql     # Execution script for valid transactions
+│   └── test_error_cases.sql       # Execution script for exception handling
+├── screenshots/                   # Verification output images
+└── docs/
+    └── IMPLEMENTATION_NOTES.md   # Concept mapping matrix & performance notes
 
 1. **Create Tables & Constraints:**
    ```sql
@@ -50,7 +72,8 @@ An AI assistant was utilized to assist with structuring code templates, generati
 
 ---
 
-## How to Run
+##
+How to Run
 
 1. **Create Tables & Constraints:**
    ```sql
